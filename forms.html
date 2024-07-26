@@ -76,14 +76,35 @@
                             <option value="3">Three</option>
                           </select>
                     </div>
-                    <div class="col-12 col-lg-4"></div>
-                    <div class="col-12 col-lg-4"></div>
-                    <div class="col-12"></div>
+                    <div class="col-12 col-lg-4">
+                        <div class="mb-3">
+                            <label for="age" class="form-label fw-bold">Anno di pubblicazione</label>
+                            <input type="number" class="form-control" id="age" placeholder="Inserisci l'anno">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="mb-3">
+                            <label for="ibsn" class="form-label fw-bold">#IBSN</label>
+                            <input type="text" class="form-control" id="ibsn" placeholder="Inserisci il codice">
+                        </div>
+                    </div>
+                    <div class="col-12 border-bottom"></div>
                     <div class="col-12">
                         <div class="mb-3">
-                            <label for="notes" class="form-label">Note</label>
+                            <label for="notes" class="form-label fw-bold">Note</label>
                             <textarea class="form-control" id="notes" rows="5" placeholder="Scrivici qui delle note"></textarea>
                           </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Disponibile anche in digitale
+                            </label>
+                          </div>
+                    </div>
+                    <div class="col-12 py-2">
+                        <button type="button" class="btn btn-primary">Aggiungi un libro</button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,12 @@
+header {
+    height: 80px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.img-header {
+    width: 20%;
+}

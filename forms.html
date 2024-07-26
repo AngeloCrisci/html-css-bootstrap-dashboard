@@ -41,7 +41,52 @@
             </nav>
         </header>
         <main>
-
+            <div class="container-lg">
+                <div class="row py-5">
+                    <div class="col-12">
+                        <h1>Nuovo Libro</h1>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-bold">Nome Autore</label>
+                            <input type="text" class="form-control" id="name" placeholder="Inserisci qui il tuo nome">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <label for="surname" class="form-label fw-bold">Cognome Autore</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Inserisci qui il tuo cognome">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="title" class="form-label fw-bold">Titolo</label>
+                            <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
+                            <address>
+                            <i>Titolo versione italiana</i>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <label for="title" class="form-label fw-bold">Genere</label>
+                        <select class="form-select form-select-md mb-3" aria-label="Large select example">
+                            <option selected>Scegli il Genere</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="col-12 col-lg-4"></div>
+                    <div class="col-12 col-lg-4"></div>
+                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="notes" class="form-label">Note</label>
+                            <textarea class="form-control" id="notes" rows="5" placeholder="Scrivici qui delle note"></textarea>
+                          </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
